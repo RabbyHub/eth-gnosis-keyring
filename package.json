@@ -1,5 +1,5 @@
 {
-  "name": "@rabby-wallet/eth-gnosis-sdk",
+  "name": "@rabby-wallet/eth-gnosis-keyring",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",

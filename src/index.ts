@@ -64,11 +64,11 @@ class GnosisKeyring extends EventEmitter {
     this.accountToAdd = account;
   };
 
-  getAccounts() {
+  async getAccounts() {
     return this.accounts;
   }
 
-  addAccounts = () => {
+  addAccounts = async () => {
     if (!this.accountToAdd) throw new Error("There is no address to add");
     if (!isAddress(this.accountToAdd)) {
       throw new Error("The address you're are trying to import is invalid");
